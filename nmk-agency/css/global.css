@@ -1,0 +1,23 @@
+.main-wrapper {
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+@media (max-width: 1440px) {
+  .main-wrapper {
+    margin: 0 auto;
+    padding: 0 50px;
+  }
+}
+@media (max-width: 1028px) {
+  .main-wrapper {
+    margin: 0 auto;
+    padding: 0 30px;
+  }
+
+  .dropdown-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/*# sourceMappingURL=global.css.map */

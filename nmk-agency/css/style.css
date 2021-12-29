@@ -1,0 +1,249 @@
+body {
+  background-color: rgba(230, 229, 227, 0.747);
+}
+
+.lorem-par {
+  max-width: 1300px;
+}
+
+.first-bg {
+  background-image: url("../img/Industry-banners-Horticulture-1300px.jpg");
+  height: auto;
+  max-width: 1300px;
+  width: 100%;
+  background-size: cover;
+  border-radius: 0.25rem;
+}
+
+.scd-section {
+  padding-top: 35px;
+}
+
+.bg-content {
+  padding: 65px 0px 65px 90px;
+}
+
+.bg-content .title-bg {
+  font-size: 30px;
+  color: #ffff;
+}
+
+.border-first {
+  border-top: 5px solid #a00909;
+}
+
+.a-test-first {
+  border-bottom: 5px solid #080d58;
+}
+
+.lorem-par .title-lorem {
+  font-size: 25px;
+  color: #57534a;
+}
+
+.content-par {
+  font-size: 14px;
+  color: #57534a;
+}
+
+.gridy-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.a-links-container {
+  padding: 90px 0px 30px 0px;
+}
+
+.a-links-container .a-test {
+  outline: none;
+  text-decoration: none;
+  color: #928f89;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.a-links-container .a-test:focus {
+  font-weight: 800;
+  color: #57534a;
+}
+
+.cards-container .cards-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-bottom: 75px;
+  grid-gap: 20px;
+}
+
+.card-text {
+  font-size: 15px;
+}
+
+.cards-container .cards-wrapper .card {
+  max-width: 300px;
+  width: 100%;
+}
+
+.dropdown-container {
+  padding-bottom: 300px;
+}
+
+.btn-learn {
+  padding: 10px 40px;
+}
+
+.maxi-img {
+  max-width: 600px;
+  width: 100%;
+  height: 200px;
+}
+
+.img-radius {
+  border-radius: 0.25rem;
+}
+
+.title-card {
+  color: #dd1111;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.scd-title-card {
+  color: #df7e0f;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.p-lorem-card {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.dropdown .btn, .dropdown-menu {
+  border-radius: 0%;
+}
+
+.dropdown .btn {
+  max-width: 220px;
+  width: 100%;
+}
+
+.dropdown .dropdown-menu {
+  max-width: 420px;
+  width: 100%;
+}
+
+.btn-secondary {
+  background-color: #ffff;
+  border-color: #ffff;
+  color: #665f5f;
+  font-weight: 600;
+}
+
+.btn-secondary:focus {
+  background-color: #2e2a2a;
+}
+
+.search-bar input {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  outline: 0;
+}
+
+.search-bar .sub-btn {
+  outline: 0;
+  border: 0;
+  background-color: inherit;
+  color: #bbb4b4;
+}
+
+.dropdown-menu .wrapper-searhbar {
+  border-bottom: 1px solid #776e6e;
+  max-width: 350px;
+  width: 100%;
+}
+
+.dropdown-menu {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+i {
+  display: block;
+}
+
+.gridy-li {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+}
+
+.dpr-menu .gridy-li a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  color: #000;
+}
+
+.dpr-menu:hover {
+  background-color: #d2f5fa;
+}
+
+@media (max-width: 1280px) {
+  .cards-container .cards-wrapper {
+    grid-template-columns: max-content max-content max-content;
+  }
+
+  .gridy-item {
+    grid-template-columns: 1fr;
+  }
+
+  .gridy-par-order {
+    order: 1;
+  }
+
+  .gridy-img-order {
+    order: 0;
+  }
+}
+@media (max-width: 1028px) {
+  .cards-container .cards-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .cards-container .cards-wrapper .card {
+    max-width: none;
+  }
+}
+@media (max-width: 767px) {
+  .gridy-item {
+    text-align: center;
+  }
+
+  .btn-center {
+    text-align: center;
+  }
+
+  .bg-content {
+    padding: 90px 0px;
+  }
+
+  .title-bg {
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .cards-container .cards-wrapper {
+    grid-template-columns: 1fr;
+    grid-gap: 50px;
+    margin: 0;
+  }
+
+  .cards-container .cards-wrapper .card {
+    max-width: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
